@@ -1,0 +1,18 @@
+﻿function Test()
+{
+  var PropArray, ValuesArray, p, w;
+  
+  // Creates arrays of property names and values
+  PropArray = new Array("WndCaption", "Visible");
+  ValuesArray = new Array("Font st&yle:", true);
+
+  // Searches for the window
+  p = Sys.Process("Notepad");
+  w = p.FindChildEx(PropArray, ValuesArray, 5, true, 1000);
+
+  // Processes the search results
+  if (w.Exists)
+    Log.Message(w.FullName);
+  else
+    Log.Error("The object was not found.");
+}

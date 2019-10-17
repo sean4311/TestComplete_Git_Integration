@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="43747.7140741435"/>
+						<Prp name="name" type="S" value="foo"/>
+						<Prp name="status" type="I" value="3"/>
+						<Prp name="duration" type="I" value="0"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="You are trying to run a network suite as a test case."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The execution process was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Cannot connect to a remote TestComplete service. Invalid address."/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="64307"/>
+						<Prp name="starttime" type="D" value="43747.7133298264"/>
+						<Prp name="name" type="S" value="Task1"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="duration" type="I" value="64307"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADQAOAA2AEYAQwBBAEQALQBFADAARgA4AC0ANAA5AEEAMgAtAEIAQQAwADkALQBBADEAMwBDAEYAOAAxADEARgBGADEAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="43747.7133298264"/>
+				<Prp name="name" type="S" value="TestProject1"/>
+				<Prp name="duration" type="I" value="64307"/>
+				<Prp name="incompletedtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="Sean.ONeil"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="host" type="S" value="SB-MA-PC0GBZUM"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="43747.7140759375"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="key" type="S" value="{44A639D4-D464-41ED-9EBB-4F8BA19AE8FA}"/>
+		<Prp name="name" type="S" value="ProjectSuite36"/>
+		<Prp name="testname" type="S" value="ProjectSuite36"/>
+		<Prp name="incompletedtests" type="I" value="1"/>
+		<Prp name="starttime" type="D" value="43747.7133260417"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+	</Node>
+</Nodes>

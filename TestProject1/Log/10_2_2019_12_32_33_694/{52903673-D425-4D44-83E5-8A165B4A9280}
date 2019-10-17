@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="messages">
+			<Node name="1">
+				<Prp name="link" type="S" value="Keyword Test Log [Test3]"/>
+				<Prp name="message" type="S" value="Keyword Test Log [Test3]"/>
+				<Prp name="messageex" type="S" value=""/>
+				<Prp name="priority" type="I" value="300"/>
+				<Prp name="type" type="I" value="0"/>
+				<Prp name="moniker" type="S" value="{8A99A288-B747-41CD-8CB0-2E48EBDBB7F2}"/>
+			</Node>
+			<Node name="0">
+				<Prp name="link" type="S" value=""/>
+				<Prp name="message" type="S" value="You are trying to run a network suite as a test case."/>
+				<Prp name="messageex" type="S" value="The results of the items executed on remote computers will not affect the test case results in the Summary report."/>
+				<Prp name="priority" type="I" value="300"/>
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="children"/>
+		<Prp name="status" type="I" value="1"/>
+		<Prp name="project" type="S" value="{4725AB3D-4C43-4521-9A4B-F51DE19EF5AD}"/>
+		<Prp name="remote log" type="S" value="{9DC800F2-7E41-419F-B8C1-9D24082D9474}\Description.tcLog"/>
+		<Prp name="child data type" type="S" value="{1F81C75A-41A6-4DFB-AA82-4F8E4D3C31C2}"/>
+		<Prp name="test" type="S" value="{1E65DD02-9CF7-4DE5-911B-51130625D5E4}"/>
+		<Prp name="name" type="S" value="Task1 (10.0.24.182)"/>
+	</Node>
+</Nodes>

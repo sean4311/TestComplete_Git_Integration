@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{54BD767E-85A4-491D-A3B2-EC88685BF3C8}" version="14.0">
+	<children>
+		<child name="Job1" key="{CBC0DBB4-A7BB-4175-8915-C31FA36210D8}">
+			<data signature="{E2AF080E-4F10-4DAC-8897-101FF5509E65}" version="14.0" caption="Job1" active="True">
+				<children>
+					<child name="Task1" key="{1E65DD02-9CF7-4DE5-911B-51130625D5E4}">
+						<data signature="{23C4D44E-8AC2-4667-BAFD-DAD89D94804E}" version="14.0" caption="Task1" active="True" actionAfterRun="0" remoteApplication="1" copyRemoteLogMode="1" projectPath="" tag="" host="{2ABEC679-9C4B-48CE-ABAE-3FE4489A1509}" test="TestProject1\KeywordTests\Test3" previousInstanceMode="0" instances="1" hostTimeout="3" />
+					</child>
+					<child name="Task2" key="{2F786E02-7D1D-40C8-9FEA-575D3BDD5A65}">
+						<data signature="{23C4D44E-8AC2-4667-BAFD-DAD89D94804E}" version="14.0" caption="Task2" active="True" actionAfterRun="0" remoteApplication="1" copyRemoteLogMode="1" projectPath="" tag="" host="{00000000-0000-0000-0000-000000000000}" test="" previousInstanceMode="0" instances="1" hostTimeout="3" />
+					</child>
+				</children>
+			</data>
+		</child>
+	</children>
+</Root>

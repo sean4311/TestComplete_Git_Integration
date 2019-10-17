@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="808"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="80"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow"/>
+					<Prp name="object bottom" type="I" value="680"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="43754.6179451852"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43754.4512796875"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow&#xA;(Sys.Process(&quot;VirtualBoxVM&quot;, 3).Window(&quot;Qt5QWindowIcon&quot;, &quot;My_Linux_Machine [Running] - Oracle VM VirtualBox&quot;, 1).Window(&quot;Qt5QWindowIcon&quot;, &quot;QWidgetClassWindow&quot;, 3).Window(&quot;Qt5QWindowIcon&quot;, &quot;UIMachineViewNormalClassWindow&quot;, 1).Window(&quot;Qt5QWindowIcon&quot;, &quot;qt_scrollarea_viewportWindow&quot;, 3))"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{BB465061-9786-4569-9837-E2B45E021284}"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi113369187115121.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="43753.8573148148"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="808"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="80"/>
+					<Prp name="click point x" type="I" value="408"/>
+					<Prp name="click point y" type="I" value="380"/>
+					<Prp name="object name" type="S" value="Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow"/>
+					<Prp name="object bottom" type="I" value="680"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="43754.6179320255"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43754.4512665741"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (400, 300) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow&#xA;(Sys.Process(&quot;VirtualBoxVM&quot;, 3).Window(&quot;Qt5QWindowIcon&quot;, &quot;My_Linux_Machine [Running] - Oracle VM VirtualBox&quot;, 1).Window(&quot;Qt5QWindowIcon&quot;, &quot;QWidgetClassWindow&quot;, 3).Window(&quot;Qt5QWindowIcon&quot;, &quot;UIMachineViewNormalClassWindow&quot;, 1).Window(&quot;Qt5QWindowIcon&quot;, &quot;qt_scrollarea_viewportWindow&quot;, 3))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="808"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="80"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow"/>
+					<Prp name="object bottom" type="I" value="680"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="43754.6179420602"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43754.4512773727"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="'echo test' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.VirtualBoxVM.wndQt5QWindowIcon.QWidgetClassWindow.UIMachineViewNormalClassWindow.qt_scrollarea_viewportWindow&#xA;(Sys.Process(&quot;VirtualBoxVM&quot;, 3).Window(&quot;Qt5QWindowIcon&quot;, &quot;My_Linux_Machine [Running] - Oracle VM VirtualBox&quot;, 1).Window(&quot;Qt5QWindowIcon&quot;, &quot;QWidgetClassWindow&quot;, 3).Window(&quot;Qt5QWindowIcon&quot;, &quot;UIMachineViewNormalClassWindow&quot;, 1).Window(&quot;Qt5QWindowIcon&quot;, &quot;qt_scrollarea_viewportWindow&quot;, 3))"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

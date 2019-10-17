@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{F9CE740A-75C2-4FBA-ABF9-6C0E95F3AD1C}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{B38E7D61-11AA-4F00-A619-2050D06DDF70}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{2AC778FC-551C-47E0-BA58-E8FE558B64F8}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{43A07FCA-DFB5-4CE3-916D-483E3935BB03}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="407127288" Left="0" Top="103" Right="1903" Bottom="4252" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{CFA144FC-DAA5-43CF-823F-90496A0DA6D2}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="2002422793" Left="1147" Top="459" Right="1459" Bottom="512" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="540065007300740043006F006D0070006C006500740065000A004100750074006F006D0061007400650064002000550049002000460075006E006300740069006F006E0061006C002000540065007300740069006E006700" Type="7" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textnode" Key="{EB518295-4908-47D4-9C72-CB69B251411E}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="2002422793" Left="1182" Top="459" Right="1459" Bottom="490" />
+														<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="TextNode" Type="5" />
+															</Property>
+															<Property Name="contentText">
+																<Value PropertyType="0" Value="TestComplete" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{3EF9BC3C-CEEC-4D2B-8859-886B61A00B6B}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="407127288" Left="0" Top="103" Right="0" Bottom="103" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Header" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="p_lt_Header" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{BF8FA596-12D0-4138-AADA-FD62484D17A0}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="407127288" Left="807" Top="103" Right="892" Bottom="168" />
+												<TypeInfo Item0="{F2DC0F5A-E922-4DE7-BA25-31359BE2D270}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Products" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl" Key="{FAE45229-C43F-4BB5-9D31-9000353C6BA7}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/pricing/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{E7230FB6-B9E9-4303-A131-53F462A41455}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-324134633" Left="0" Top="103" Right="1903" Bottom="1734" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="vgLayer1" Key="{B1203CA6-E2F9-4626-AF96-F989D9A91630}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-324134633" Left="247" Top="119" Right="482" Bottom="148" />
+												<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="SVG" Type="5" />
+													</Property>
+													<Property Name="idStr">
+														<Value PropertyType="0" Value="Layer_1" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl2" Key="{1172AF8B-2ECB-48C5-83F2-74400273E54E}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/overview/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerPLtHeader" Key="{B5329365-66EA-40D0-A65F-13B84940D17D}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1215830072" Left="0" Top="103" Right="0" Bottom="233" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Header" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="p_lt_Header" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{BE02CC12-7FDA-4043-9C3B-23FF24BBB83C}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1215830072" Left="0" Top="168" Right="1903" Bottom="233" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="nav" Key="{00106F46-3E7A-46FA-91A3-9B22FC8E7351}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1215830072" Left="247" Top="168" Right="1657" Bottom="233" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Nav" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="link" Key="{A4302465-1632-4883-B25A-23B2E00D2DD6}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1215830072" Left="614" Top="168" Right="742" Bottom="233" />
+																<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Link" Type="5" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value PropertyType="0" Value="Features" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl3" Key="{441BBCF6-8FF8-4314-A76F-626AB1DFC755}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/features/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{14DBF7E4-0DD8-4E2A-8508-2C07680A4070}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1868351665" Left="0" Top="103" Right="1903" Bottom="4489" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{3F990FFA-E6E6-4A47-9E84-43A579BF3C32}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1868351665" Left="742" Top="168" Right="882" Bottom="233" />
+												<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Use Cases" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl4" Key="{84D9DE90-3E89-418C-8CEB-D2CFEF61529C}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/use-cases/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerPLtHeader" Key="{079CF19A-6381-415D-97D1-7307E810E317}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-229352057" Left="0" Top="103" Right="0" Bottom="233" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Header" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="p_lt_Header" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{D7E41DB4-5280-4E8D-A3B0-84F152D2A595}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-229352057" Left="0" Top="168" Right="1903" Bottom="233" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="nav" Key="{DCA7A19E-8236-4786-9792-49B805049A25}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-229352057" Left="247" Top="168" Right="1657" Bottom="233" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Nav" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="link" Key="{505BADEA-E69B-48A4-ADF6-2F6E9F2982B1}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-229352057" Left="882" Top="168" Right="1038" Bottom="233" />
+																<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Link" Type="5" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value PropertyType="0" Value="Integrations" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl5" Key="{9B968199-FE50-4626-AF76-8FC6524F4188}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/integrations/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerPLtHeader" Key="{C83A6071-91DA-40DE-BC12-FC77593242CA}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1283766852" Left="0" Top="103" Right="0" Bottom="233" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Header" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="p_lt_Header" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{A2A95C73-3A2B-4BAA-9B0B-C98B8113B1E7}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1283766852" Left="0" Top="168" Right="1903" Bottom="233" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="nav" Key="{3209508A-D462-4955-AED9-87726FB3BCE1}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1283766852" Left="247" Top="168" Right="1657" Bottom="233" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Nav" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="link" Key="{9F3D5636-B27A-4F5D-A189-5F6C72D95807}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1283766852" Left="1038" Top="168" Right="1179" Bottom="233" />
+																<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Link" Type="5" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value PropertyType="0" Value="Resources" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl6" Key="{5F6406B2-6893-43BE-A59F-72186FD86194}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/resources/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{41E05DD1-8661-4074-9C48-268966FA31C7}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="-2046945344" Left="0" Top="103" Right="1903" Bottom="3485" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{80759FDF-229F-43F3-AC83-E23A765D7AF3}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-2046945344" Left="1179" Top="168" Right="1349" Bottom="233" />
+												<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Specifications" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSmartbearComProductTestcompl7" Key="{3F7F1582-91A9-42DF-B1CD-150778C8BB5F}" ParallelWalk="True">
+								<Image FileName="407127288" Left="0" Top="103" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://smartbear.com/product/testcomplete/specifications/" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{A8C12E6F-45EE-4EA4-AA23-893698B2B4D3}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="977134499" Left="0" Top="103" Right="1903" Bottom="1872" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="idStr">
+												<Value PropertyType="0" Value="form" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{34567C08-2A94-46C0-BD3E-D72D041AFB50}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="977134499" Left="1349" Top="168" Right="1461" Bottom="233" />
+												<TypeInfo Item0="{CA326F78-E195-4ADF-80F1-F4E222495F3A}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Link" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Pricing" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{B38E7D61-11AA-4F00-A619-2050D06DDF70}">
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{2AC778FC-551C-47E0-BA58-E8FE558B64F8}">
+				<Child Name="form" Owner="{43A07FCA-DFB5-4CE3-916D-483E3935BB03}">
+					<Child Name="link" Owner="{CFA144FC-DAA5-43CF-823F-90496A0DA6D2}">
+						<Child Name="textnode" Owner="{EB518295-4908-47D4-9C72-CB69B251411E}" />
+					</Child>
+				</Child>
+				<Child Name="headerPLtHeader" Owner="{3EF9BC3C-CEEC-4D2B-8859-886B61A00B6B}">
+					<Child Name="link" Owner="{BF8FA596-12D0-4138-AADA-FD62484D17A0}" />
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl" Owner="{FAE45229-C43F-4BB5-9D31-9000353C6BA7}">
+				<Child Name="form" Owner="{E7230FB6-B9E9-4303-A131-53F462A41455}">
+					<Child Name="vgLayer1" Owner="{B1203CA6-E2F9-4626-AF96-F989D9A91630}" />
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl2" Owner="{1172AF8B-2ECB-48C5-83F2-74400273E54E}">
+				<Child Name="headerPLtHeader" Owner="{B5329365-66EA-40D0-A65F-13B84940D17D}">
+					<Child Name="nav" Owner="{00106F46-3E7A-46FA-91A3-9B22FC8E7351}">
+						<Child Name="link" Owner="{A4302465-1632-4883-B25A-23B2E00D2DD6}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl3" Owner="{441BBCF6-8FF8-4314-A76F-626AB1DFC755}">
+				<Child Name="form" Owner="{14DBF7E4-0DD8-4E2A-8508-2C07680A4070}">
+					<Child Name="link" Owner="{3F990FFA-E6E6-4A47-9E84-43A579BF3C32}" />
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl4" Owner="{84D9DE90-3E89-418C-8CEB-D2CFEF61529C}">
+				<Child Name="headerPLtHeader" Owner="{079CF19A-6381-415D-97D1-7307E810E317}">
+					<Child Name="nav" Owner="{DCA7A19E-8236-4786-9792-49B805049A25}">
+						<Child Name="link" Owner="{505BADEA-E69B-48A4-ADF6-2F6E9F2982B1}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl5" Owner="{9B968199-FE50-4626-AF76-8FC6524F4188}">
+				<Child Name="headerPLtHeader" Owner="{C83A6071-91DA-40DE-BC12-FC77593242CA}">
+					<Child Name="nav" Owner="{3209508A-D462-4955-AED9-87726FB3BCE1}">
+						<Child Name="link" Owner="{9F3D5636-B27A-4F5D-A189-5F6C72D95807}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl6" Owner="{5F6406B2-6893-43BE-A59F-72186FD86194}">
+				<Child Name="form" Owner="{41E05DD1-8661-4074-9C48-268966FA31C7}">
+					<Child Name="link" Owner="{80759FDF-229F-43F3-AC83-E23A765D7AF3}" />
+				</Child>
+			</Child>
+			<Child Name="pageSmartbearComProductTestcompl7" Owner="{3F7F1582-91A9-42DF-B1CD-150778C8BB5F}">
+				<Child Name="form" Owner="{A8C12E6F-45EE-4EA4-AA23-893698B2B4D3}">
+					<Child Name="link" Owner="{34567C08-2A94-46C0-BD3E-D72D041AFB50}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="-799264832" Key="{CA326F78-E195-4ADF-80F1-F4E222495F3A}">
+			<Data Properties="A91F794593B21F45B4AB3AB5AF99CF49UFFFFFFFFFFFFFFFFV4L7ZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="1839876846" Key="{F2DC0F5A-E922-4DE7-BA25-31359BE2D270}">
+			<Data Properties="42AF72AA4C4CC34880D22F5D30A715BVFFFFFFFFFFFFFFFFV4LCZZY">
+				<FunctionDescriptions>
+					<Child Name="DropDown" Doc="Opens the control&apos;s drop-down window." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wItemCount" Doc="Returns the total number of items." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wItem" Doc="Returns the name of the item specified by its index." IsBasic="True" Param0="Index" Data="ZI4L2L4L1ZG8ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="ClickItem" Doc="Moves the mouse cursor to the specified item and then simulates a single click." IsBasic="True" Param0="Item" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ObjectLabel" Doc="Gets the label of the control." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
+</Root>

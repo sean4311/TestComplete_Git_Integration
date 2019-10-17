@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{1478418C-D916-49E9-8E78-BF4561C164F9}" version="14.0">
+	<children>
+		<child name="Host1" key="{2ABEC679-9C4B-48CE-ABAE-3FE4489A1509}">
+			<data signature="{4C283132-D38F-4C25-B72C-75AD0D8A3093}" version="14.0" caption="Host1" address="10.0.24.182" basePath="C:\Users\Sean\Documents\" userName="sean.oneil" source="" domain="" logonMode="0" password="2E1D778DD74F55167DF797DF9CAEF51D3CAD30F9E55F" />
+		</child>
+	</children>
+</Root>

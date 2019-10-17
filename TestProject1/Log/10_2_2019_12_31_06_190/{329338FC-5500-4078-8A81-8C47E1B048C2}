@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="messages">
+			<Node name="2">
+				<Prp name="moniker" type="S" value=""/>
+				<Prp name="priority" type="I" value="300"/>
+				<Prp name="message" type="S" value="The execution was interrupted."/>
+				<Prp name="messageex" type="S" value=""/>
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="link" type="S" value=""/>
+			</Node>
+			<Node name="0">
+				<Prp name="moniker" type="S" value=""/>
+				<Prp name="priority" type="I" value="300"/>
+				<Prp name="message" type="S" value="You are trying to run a network suite as a test case."/>
+				<Prp name="messageex" type="S" value="The results of the items executed on remote computers will not affect the test case results in the Summary report."/>
+				<Prp name="type" type="I" value="1"/>
+				<Prp name="link" type="S" value=""/>
+			</Node>
+			<Node name="1">
+				<Prp name="moniker" type="S" value=""/>
+				<Prp name="priority" type="I" value="300"/>
+				<Prp name="message" type="S" value="Cannot load the remote project. The 'C:\Downloads\Test1_Microsoft_excel_error\Test1_Microsoft_excel_error.tcKDTest' file does not exist"/>
+				<Prp name="messageex" type="S" value=""/>
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="link" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="children"/>
+		<Prp name="remote log" type="S" value=""/>
+		<Prp name="test" type="S" value="{1E65DD02-9CF7-4DE5-911B-51130625D5E4}"/>
+		<Prp name="child data type" type="S" value="{1F81C75A-41A6-4DFB-AA82-4F8E4D3C31C2}"/>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="name" type="S" value="Task1 (10.0.24.182)"/>
+		<Prp name="project" type="S" value="{4725AB3D-4C43-4521-9A4B-F51DE19EF5AD}"/>
+	</Node>
+</Nodes>
